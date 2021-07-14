@@ -22,23 +22,23 @@ body{
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-
-    margin-top: 90px;
+    
+    margin-top: 10px;
 
     
 }
-.league-title{
- 
-}
+
 .league-title .league-name{
     font-size: 64px;
     width: 485px;
     height: 230px;
     color: #FFFFFF;
+  
 }
 .banner-img img{
     width: 556.01px;
     height: 438px;
+    margin-top: 175px;
     animation-name: banner-move;
     animation-timing-function:linear;
     animation-iteration-count: infinite;
@@ -154,10 +154,7 @@ height: 256px;
     justify-content: space-evenly;
     padding: 50px;
 }
-/* .moment{
-    border: 5px dashed rgb(255, 255, 255);
-    
-} */
+
 
 .moment img{
     box-shadow: 0px 0px 2px 0px;
@@ -211,6 +208,7 @@ height: 110px;
     main{
         overflow-x: hidden;
     }
+    /* --first section-- */
     .container{
         width: 100%;
     }
@@ -227,25 +225,25 @@ height: 110px;
         margin-left: -105px;
         /* padding: 10px; */
 
-        
-      
-       
+         
     }
     
     .banner-container .banner-img img{
         margin-top: 90px;
        width:300px;
        height: auto;
-margin-left: -100px;
+margin-left: -50px;
     }
     .league-title{
         margin-left: -40px;
         width:80%;
     }
+    /* ---players section--- */
+
    .players{
      
        width:300px;
-       margin-top: 250px;
+       margin-top: 100px;
        grid-template-columns: repeat(1,1fr);
        margin-left: 10px;
       
@@ -253,6 +251,8 @@ margin-left: -100px;
    .player{
        width: 100%;
    }
+
+   /* --3rd section--- */
    .copa-cup{
       
        margin-left: 5px;
@@ -268,6 +268,8 @@ margin-left: -100px;
     .copa-cup-container .about-winner{
         margin-left: 2px;
     }
+    /* ---celebration section---
+     */
     .celebration img{
      
       width: 100%;
@@ -295,6 +297,7 @@ margin-left: -100px;
         width: 250px;
         padding: 10px;
     }
+    /* --footer section--- */
     .logo{
         margin-left: 1px;
     }
