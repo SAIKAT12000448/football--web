@@ -1,6 +1,11 @@
 /*---------
 -------google font style--- */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -93,3 +98,136 @@ top: 57px;
 }
 /* banner and title end */
 
+/* ---players section */
+.all-players{
+    width: 1050px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    margin-top: 70px;
+    margin-left: 180px;
+}
+.player{
+    overflow: hidden;
+    box-shadow: 0px 0px 2px 0px;
+    padding: 10px;
+    width: 330px;
+height: 474px;
+
+}
+.player img{
+    width: 300px;
+    width: 100%;
+height: 256px;
+}
+/* -player section end-- */
+
+/* ---winner celebration section */
+.copa-cup{
+    margin: 50px;
+    width: 1200px;
+}
+
+.copa-cup-container{
+    
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+    margin-left: 50px;
+    
+
+}
+
+.celebration img{
+    width: 100%;
+    border-radius: 30%;
+    margin-right: 30px;
+    
+}
+
+.about-winner{
+    width: 80%;
+    margin-left: 50px;
+    text-align: justify;
+}
+.about-winner a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.about-winner a:hover{
+    background-color: black;
+}
+
+/* ----winner celebration section end */
+
+/* highlight section */
+.highlight{
+    background-color:#2D25A0 ;
+}
+
+.highlight .section-title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.highlight-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.moment{
+    border: 5px dashed rgb(255, 255, 255);
+    
+}
+
+.moment img{
+    box-shadow: 0px 0px 2px 0px;
+    padding: 10px;
+    width: 330px;
+    height: 210px;  
+}
+.moment img:hover{
+    transform: scale(1.2);
+    transition: transform 2s;
+}
+.highlight-container a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+     margin-top: 60px;
+     background:linear-gradient(rgb(255, 60, 0) ,rgba(0, 0, 255, 0.52));
+     height: 30px;
+     border-radius: 20%;
+     padding: 5px;
+     font-size: 20px;
+     font-weight: 800;
+}
+
+/* --footer css--- */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 158px;
+}
+
+.logo img{
+    width: 483.87px;
+height: 110px;
+}
+.icon a>i{
+    padding: 21.47px;
+   
+}
+.icon a>i:hover{
+    transform: scale(2);
+    transition: transform 1s;
+   
+}
